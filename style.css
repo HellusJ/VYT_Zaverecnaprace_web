@@ -358,6 +358,117 @@ hr{
     display: none;
 }
 
+.kontejner_payment{
+    display: flex;
+    position: relative;
+    width: 60%;
+    height: 55vh;
+    margin: 100px 20% 0 20%;
+    background:linear-gradient(to bottom, rgb(249, 163, 255), rgb(251, 200, 255));
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(63, 63, 63);
+}
+
+.payment1, .payment2{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+input{
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.name, .cvv{
+    display: flex;
+}
+
+.name div, .cardnumber, .cvv div, .pay{
+    margin: 10px;
+}
+
+.pay{
+    position: relative;
+    width: 360px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgb(89, 218, 160);
+}
+
+.cardnumber{
+    position: relative;
+    width: 50%;
+}
+
+.cardnumber input{
+    width: 352px;
+}
+
+.paynow{
+    position: relative;
+    top: 5%;
+}
+
+.pay:hover{
+    position: relative;
+    width: 360px;
+    height: 60px;
+    border-radius: 5px;
+    background-color:rgb(69, 206, 144);
+    transition: 200ms;
+}
+
+#pn{
+    padding: 5px;
+    top: 10px;
+    left: 35%;
+    position: relative;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.payment2 .paySt{
+    font-size: 50px;
+    top: 25%;
+    padding: 5px;
+    position: relative;
+    left: 25%;
+}
+
+.payment2 .pay6{
+    font-size: 30px;
+    top: 20%;
+    position: relative;
+    left: 32%;
+    padding: 5px;
+}
+
+.payment2 .payPr{
+    font-size: 50px;
+    top: 25%;
+    padding: 5px;
+    position: relative;
+    left: 39%;
+}
+
+.payment2 .payUl{
+    font-size: 50px;
+    top: 25%;
+    padding: 5px;
+    position: relative;
+    left: 35%;
+}
+
+#stepback{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+
 /*responsivita*/
 @media(max-width:780px){
     .half1{
