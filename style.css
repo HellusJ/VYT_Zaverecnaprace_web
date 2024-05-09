@@ -21,6 +21,7 @@ b{
 
 h1{
     font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #MP{
@@ -364,7 +365,7 @@ hr{
     display: flex;
     position: relative;
     width: 60%;
-    height: 55vh;
+    height: 62vh;
     margin: 100px 20% 0 20%;
     background:linear-gradient(to bottom, rgb(249, 163, 255), rgb(251, 200, 255));
     border-radius: 20px;
@@ -389,7 +390,7 @@ input{
     display: flex;
 }
 
-.name div, .cardnumber, .cvv div, .pay{
+.name div, .cardnumber, .cvv div, .pay, .mail{
     margin: 10px;
 }
 
@@ -401,12 +402,12 @@ input{
     background-color: rgb(89, 218, 160);
 }
 
-.cardnumber{
+.cardnumber, .mail{
     position: relative;
     width: 50%;
 }
 
-.cardnumber input{
+.cardnumber input, .mail input{
     width: 352px;
 }
 
@@ -471,13 +472,49 @@ input{
     height: 30px;
 }
 
+.kontejner_wtdap{
+    width: 60%;
+    position: relative;
+    margin: 150px 20% 0px 20%;
+    height: 45vh;
+    background-color: rgb(173, 214, 255);
+    border-radius: 15px;
+}
+
+.nadpis, .kontakt{
+    position: relative;
+    width: 100%;
+    height: 30%;
+}
+
+.nadpis h1{
+    position: relative;
+    left: 25%;
+    top: 20%;
+}
+
+.text{
+    position: relative;
+    height: 40%;
+    width: 100%;
+}
+
+#text1{
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+#liop{
+    left: 20%;
+}
+
 /*responsivita*/
 @media(max-width:1000px){
     .payment2{
         display: none;
     }
     
-    .name div, .cvv div, .cardnumber{
+    .name div, .cvv div, .cardnumber, .mail{
         position: relative;
         left: 30%;
     }
@@ -487,10 +524,13 @@ input{
     }
 }
 
-
 @media(max-width:780px){
     .half1{
         display: none;
+    }
+
+    #hr{
+        display: block;
     }
 
     .half2 ul li{
@@ -509,13 +549,10 @@ input{
 }
 
 @media(max-width:935px){
-
     .Standart2 p, .Pro2 p, .Ultra2 p{
         position: relative;
         top: 20%;
     }
-
-    
 }
 
 @media(max-width:1240px){
@@ -552,6 +589,10 @@ input{
     #dolelogo{
         display: none;
     }
+
+    hr{
+        display: none;
+    }
     
     #aq{
         display: none;
@@ -562,10 +603,6 @@ input{
     }
 
     .dole1{
-        display: none;
-    }
-
-    hr{
         display: none;
     }
 
@@ -615,10 +652,6 @@ input{
         width: 100%;
         height: 40%; 
     }
-
-    #hr{
-        display: block;
-    }
 }
 
 @media(max-width:1175px){
@@ -646,7 +679,7 @@ input{
         display: none;
     }
     
-    .name div, .cvv div, .cardnumber{
+    .name div, .cvv div, .cardnumber, .mail{
         position: relative;
         left: 14%;
     }
@@ -659,7 +692,7 @@ input{
         display: flex;
         position: relative;
         width: 70%;
-        height: 55vh;
+        height: 62vh;
         margin: 100px 15% 0 15%;
         border-radius: 20px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -738,7 +771,7 @@ input{
         display: flex;
         position: relative;
         width: 90%;
-        height: 55vh;
+        height: 65vh;
         margin: 100px 5% 0 5%;
         border-radius: 20px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
