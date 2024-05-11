@@ -549,10 +549,6 @@ input{
         left: 10%;
     }
 
-    #wtdap{
-        left: 4%;
-    }
-
     .email{
         margin: 20px;
     }
@@ -825,6 +821,10 @@ input{
         padding: 5px;
         height: 19px;
         width: 19px;
+    }
+
+    #wtdap{
+        left: 4%;
     }
 
     .kontejner_payment{
