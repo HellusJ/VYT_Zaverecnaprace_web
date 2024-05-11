@@ -502,6 +502,7 @@ input{
 #text1{
     font-size: 20px;
     margin-left: 10%;
+    margin-right: 10%;
 }
 
 #liop{
@@ -509,6 +510,65 @@ input{
 }
 
 /*responsivita*/
+@media(max-width:1135px){
+    #liop{
+        position: relative;
+        left: 10%;
+    }
+}
+
+@media(max-width:960px){
+    .kontejner_wtdap{
+        width: 80%;
+        position: relative;
+        margin: 150px 10% 0px 10%;
+        height: 50vh;
+        background-color: rgb(173, 214, 255);
+        border-radius: 15px;
+    }
+}
+
+@media(max-width:730px){
+    #liop{
+        position: relative;
+        left: 5%;
+    }
+}
+
+@media(max-width:560px){
+    .kontejner_wtdap{
+        width: 90%;
+        position: relative;
+        margin: 140px 5% 0 5%;
+        height: 70vh;
+        background-color: rgb(173, 214, 255);
+        border-radius: 15px;
+    }
+
+    #liop, #cicms{
+        left: 10%;
+    }
+
+    #wtdap{
+        left: 4%;
+    }
+
+    .email{
+        margin: 20px;
+    }
+}
+
+@media(max-width:700px){
+    .kontejner_wtdap{
+        width: 90%;
+        position: relative;
+        margin: 140px 5% 0px 5%;
+        height: 50vh;
+        background-color: rgb(173, 214, 255);
+        border-radius: 15px;
+    }
+}
+
 @media(max-width:1000px){
     .payment2{
         display: none;
