@@ -509,11 +509,79 @@ input{
     left: 20%;
 }
 
+.about_1{
+    display: flex;
+    position: relative;
+    width: 76%;
+    margin: 100px 12% 100px 12%;
+    height: 65vh;
+}
+
+.left_about_1, .right_about_1{
+    position: relative;
+    width: 40%;
+    margin: 5%;
+}
+
+.right_about_1 p{
+    margin-top: 15%;
+}
+
+#picture{
+    position: relative;
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid #000000;
+}
+
+#eau{
+    margin:5% 5% 0px 10%;
+    font-size: 50px;
+}
+
+#text_dole{
+    padding: 20px;
+}
+
 /*responsivita*/
 @media(max-width:1135px){
     #liop{
         position: relative;
         left: 10%;
+    }
+}
+
+@media(max-width:1090px){
+    .about_1{
+        height: 200px;
+        width: 88%;
+        margin: 80px 6% 80px 6%;
+    }
+
+    .left_about_1, .right_about_1{
+        position: relative;
+        width: 46%;
+        margin: 1%;
+    }
+
+    .right_about_1 p{
+        position: relative;
+        margin: 50px;
+        bottom: 100%;
+    }
+
+    #eau{
+        margin:5% 5% 100px 10%;
+        font-size: 50px;
+    }
+
+    .left_about_1{
+        display: none;
+    }
+    .right_about_1{
+        position: relative;
+        width: 90%;
+        margin: 5%;
     }
 }
 
