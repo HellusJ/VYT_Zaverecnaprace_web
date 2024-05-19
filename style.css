@@ -543,6 +543,42 @@ input{
     padding: 20px;
 }
 
+.project_kontejner{
+    display: flex;
+    position: relative;
+    width: 80%;
+    margin: 70px 10%;
+    height: 70vh;
+}
+
+.o_hre{
+    height: 70vh;
+    width: 60%;
+    margin: 0px 2%;
+    border-radius: 15px;
+}
+
+.letak{
+    width: 32%;
+    margin: 0px 2%;
+    height: 70vh;
+}
+
+.letak img{
+    position: relative;
+    height: 70vh;
+    right: 27%;
+    top: 2%;
+}
+
+.o_hre p{
+    margin: 10% 30px;
+}
+
+video{
+    margin: 0px 25% 100px 25%;
+}
+
 /*responsivita*/
 @media(max-width:1135px){
     #liop{
