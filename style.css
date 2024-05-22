@@ -588,6 +588,14 @@ video{
     position: relative;
     left: 10%;
 }
+
+#luech{
+    position: relative;
+    margin-top: 10%;
+    font-size: 50px;
+    margin-left: 5%;
+}
+
 /*responsivita*/
 @media(max-width:1135px){
     #liop{
@@ -977,6 +985,21 @@ video{
         width: 19px;
     }
 
+    #luech{
+        position: absolute;
+        top: 120px;
+        padding: 10%;
+        right: 10%;
+    }
+
+    #pd{
+        margin-top: 20%;
+    }
+
+    .dole{
+        margin-top: 60%;
+    }
+
     #wtdap{
         left: 4%;
     }
@@ -990,6 +1013,13 @@ video{
         border-radius: 20px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: rgb(63, 63, 63);
+    }
+
+    #luech{
+        position: relative;
+        margin-top: 25%;
+        font-size: 50px;
+        margin-left: 5%;
     }
 
     .support2 ul{
