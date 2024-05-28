@@ -110,7 +110,7 @@ h1{
     text-align: center;
     border-radius: 20px;
     min-width: 27%;
-    height: 90vh;
+    height: 90%;
     min-width: 320px;
     transition: 0.3s;
 }
@@ -396,7 +396,7 @@ input{
 
 .pay{
     position: relative;
-    width: 360px;
+    width: 365px;
     height: 60px;
     border-radius: 5px;
     background-color: rgb(89, 218, 160);
@@ -408,7 +408,7 @@ input{
 }
 
 .cardnumber input, .mail input{
-    width: 352px;
+    width: 365px;
 }
 
 .paynow{
@@ -597,6 +597,17 @@ video{
 }
 
 /*responsivita*/
+@media(min-height:800px){
+    .kontejner_payment{
+        height: 45vh;
+        width: 56%;
+        margin: 10% 22% 0px 22%;
+    }
+
+    #MP{
+        left: 35%;
+    }
+}
 @media(max-width:1135px){
     #liop{
         position: relative;
@@ -619,7 +630,7 @@ video{
     .about_1{
         height: 200px;
         width: 88%;
-        margin: 80px 6% 80px 6%;
+        margin: 120px 6% 20px 6%;
     }
 
     .left_about_1, .right_about_1{
@@ -987,17 +998,17 @@ video{
 
     #luech{
         position: absolute;
-        top: 120px;
+        top: 0px;
         padding: 10%;
         right: 10%;
     }
 
     #pd{
-        margin-top: 20%;
+        margin-top: 1%;
     }
 
     .dole{
-        margin-top: 60%;
+        margin-top: 20%;
     }
 
     #wtdap{
@@ -1017,7 +1028,7 @@ video{
 
     #luech{
         position: relative;
-        margin-top: 25%;
+        margin-top: 0%;
         font-size: 50px;
         margin-left: 5%;
     }
