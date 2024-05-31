@@ -361,111 +361,6 @@ hr{
     display: none;
 }
 
-.kontejner_payment{
-    display: flex;
-    position: relative;
-    width: 60%;
-    height: 62vh;
-    margin: 100px 20% 0 20%;
-    background:linear-gradient(to bottom, rgb(249, 163, 255), rgb(251, 200, 255));
-    border-radius: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(63, 63, 63);
-}
-
-.payment1, .payment2{
-    position: relative;
-    width: 50%;
-    height: 100%;
-}
-
-input{
-    border: 2px solid rgb(0, 0, 0);
-    margin-top: 10px;
-    height: 30px;
-    border-radius: 5px;
-}
-
-.name, .cvv{
-    display: flex;
-}
-
-.name div, .cardnumber, .cvv div, .pay, .mail{
-    margin: 10px;
-}
-
-.pay{
-    position: relative;
-    width: 360px;
-    height: 60px;
-    border-radius: 5px;
-    background-color: rgb(89, 218, 160);
-}
-
-.cardnumber, .mail{
-    position: relative;
-    width: 50%;
-}
-
-.cardnumber input, .mail input{
-    width: 352px;
-}
-
-.paynow{
-    position: relative;
-    top: 5%;
-}
-
-.pay:hover{
-    position: relative;
-    width: 360px;
-    height: 60px;
-    border-radius: 5px;
-    background-color:rgb(69, 206, 144);
-    transition: 200ms;
-}
-
-#pn{
-    padding: 5px;
-    top: 10px;
-    left: 35%;
-    position: relative;
-    color: aliceblue;
-    font-size: 25px;
-}
-
-.payment2 .paySt{
-    font-size: 50px;
-    top: 25%;
-    padding: 5px;
-    position: relative;
-    left: 25%;
-}
-
-.payment2 .pay6{
-    font-size: 30px;
-    top: 20%;
-    position: relative;
-    left: 32%;
-    padding: 5px;
-}
-
-.payment2 .payPr{
-    font-size: 50px;
-    top: 25%;
-    padding: 5px;
-    position: relative;
-    left: 39%;
-}
-
-.payment2 .payUl{
-    font-size: 50px;
-    top: 25%;
-    padding: 5px;
-    position: relative;
-    left: 35%;
-}
-
 #stepback{
     margin: 10px;
     width: 30px;
@@ -596,6 +491,78 @@ video{
     margin-left: 5%;
 }
 
+.kontejner_payment{
+    display: flex;
+    width: 60%;
+    height: 62vh;
+    background-color: #f8a8ff;
+    margin: 5% 20% 0px 20%;
+    border-radius: 10px;
+}
+
+.kontejner_payment label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.name, .cvv{
+    display: flex;
+}
+
+.payment1{
+    position: relative;
+    width: 46%;
+    margin: 2%;
+}
+
+.payment2{
+    width: 50%;
+}
+
+.cardnumber, .cardnumber input, .mail, .mail input{
+    position: relative;
+    width: 342px;
+}
+
+input{
+    margin:  12px 5px;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.pay{
+    width: 350px;
+    height: 80px;
+    border-radius: 10px;
+    background: linear-gradient(to left, rgb(138, 255, 201), rgb(20, 255, 153));
+}
+
+.pay:hover{
+    width: 84%;
+    height: 80px;
+    border-radius: 10px;
+    background: linear-gradient(to left,rgb(20, 255, 153), rgb(138, 255, 201));
+}
+
+#pn{
+    font-size: 25px;
+    position: relative;
+    left: 35%;
+    top: 30%;
+}
+
+.payment2 h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 25%;
+    top: 30%;
+}
+
+.payment2 h1{
+    position: relative;
+    left: 25%;
+    top: 30%;
+}
+
 /*responsivita*/
 @media(max-width:1135px){
     #liop{
@@ -697,21 +664,6 @@ video{
     }
 }
 
-@media(max-width:1000px){
-    .payment2{
-        display: none;
-    }
-    
-    .name div, .cvv div, .cardnumber, .mail{
-        position: relative;
-        left: 30%;
-    }
-
-    .paynow{
-        left: 30%;
-    }
-}
-
 @media(max-width:780px){
     .half1{
         display: none;
@@ -742,7 +694,7 @@ video{
     }
 
     video{
-        margin: 0px ;
+        margin: 0px;
         width: 100%;
     }
 }
@@ -784,12 +736,27 @@ video{
     }
 }
 
+@media(max-width:655px){
+    .kontejner_payment{
+        display: flex;
+        width: 90%;
+        height: 62vh;
+        background-color: #f8a8ff;
+        margin: 5% 5% 0px 5%;
+        border-radius: 10px;
+    }
+}
+
 @media(max-width:1075px){
     #dolelogo{
         display: none;
     }
 
     hr{
+        display: none;
+    }
+
+    .payment2{
         display: none;
     }
     
@@ -874,47 +841,15 @@ video{
 }
 
 @media(max-width:834px){
-    .payment2{
-        display: none;
-    }
-
     video{
         margin: 10% 15% 60px 15%;
         width: 70%;
         height: 260px;
     }
-    
-    .name div, .cvv div, .cardnumber, .mail{
-        position: relative;
-        left: 14%;
-    }
-
-    .project_kontejner{
-        display: flex;
-        position: relative;
-        width: 96%;
-        margin: 70px 2%;
-        height: 70vh;
-    }
-
-    .paynow{
-        left: 14%;
-    }
 
     #eau{
         margin:5% 5% 20px 5%;
         font-size: 50px;
-    }
-
-    .kontejner_payment{
-        display: flex;
-        position: relative;
-        width: 70%;
-        height: 62vh;
-        margin: 100px 15% 0 15%;
-        border-radius: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: rgb(63, 63, 63);
     }
 
     body{
@@ -997,22 +932,11 @@ video{
     }
 
     .dole{
-        margin-top: 60%;
+        margin-top: 15%;
     }
 
     #wtdap{
         left: 4%;
-    }
-
-    .kontejner_payment{
-        display: flex;
-        position: relative;
-        width: 90%;
-        height: 65vh;
-        margin: 100px 5% 0 5%;
-        border-radius: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: rgb(63, 63, 63);
     }
 
     #luech{
@@ -1044,7 +968,40 @@ video{
         margin: 45px 30px 0px 30px;
         border-radius: 5px;
     }
+}
 
+@media(min-height:945px){
+    .pay, .pay:hover{
+        width: 365px;
+    }
+
+    .kontejner_payment{
+        height: 52vh;
+    }
+
+    .cardnumber input, .mail input{
+        width: 355px;
+    }
+
+    #MP{
+        position: absolute;
+        left: 35%;
+    }
+
+    .payment2 h2{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: relative;
+        font-size: 50px;
+        left: 25%;
+        top: 30%;
+    }
+    
+    .payment2 h1{
+        position: relative;
+        left: 25%;
+        font-size: 50px;
+        top: 30%;
+    }
 }
 
 @media(max-width:495px){
@@ -1082,14 +1039,57 @@ video{
         animation: scroll 13s linear infinite;
         min-width: 100wv;
     }
-
-    .Standart {
-        margin-left: 740px;
-    }
 }
 
 @media(min-width:1900px){
     .ss{
         left: 30%;
+    }
+}
+
+@media(max-width:400px){
+    .half2 ul{
+        font-size: 18px;
+        top: 30px;
+    }
+
+    .kontejner_payment{
+        height: 55vh;
+    }
+
+    .kontejner_wtdap{
+        height: 60vh;
+    }
+
+    .pay{
+        position: relative;
+        width: 310px;
+    }
+
+    .name input, .cvv input{
+        width: 135px;
+    }
+
+    .cardnumber, .cardnumber input, .mail, .mail input{
+        position: relative;
+        width: 290px;
+    }
+
+    .dole{
+        position: relative;
+        bottom: 0px;
+        margin-top: 20px;
+        width: 100%;
+        height: 15vh;
+        background-color: rgb(121, 219, 175);
+    }
+
+    .Standart{
+        margin-left: 30px;
+    }
+
+    .ss{
+        left: 10px;
+        top: 45px;
     }
 }
