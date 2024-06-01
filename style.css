@@ -756,6 +756,17 @@ input{
         display: none;
     }
 
+    .about_1, #eau{
+        margin: 20px;
+    }
+
+    .right_about_1 p{
+        position: relative;
+        bottom: 40%;
+        margin: 5px;
+    }
+    
+
     .payment2{
         display: none;
     }
@@ -1084,6 +1095,13 @@ input{
         background-color: rgb(121, 219, 175);
     }
 
+    .right_about_1 p{
+        position: relative;
+        top: 40px;
+        margin: 5px;
+        height: 90%;
+    }
+
     .Standart{
         margin-left: 30px;
     }
@@ -1091,5 +1109,40 @@ input{
     .ss{
         left: 10px;
         top: 45px;
+    }
+
+    #eau{
+        position: relative;
+        top: 60px;
+        margin: 20%;
+    }
+
+    .about_1{
+        margin: 5px;
+        height: 350px;
+    }
+}
+
+@media(max-width:500px){
+    .right_about_1 p{
+        position: relative;
+        bottom: 40%;
+        margin: 10px;
+    }
+}
+
+@media(max-width:700px){
+    .right_about_1 p{
+        position: relative;
+        bottom: 35%;
+        margin: 10px;
+    }
+
+    .about_1{
+        margin: 30px;
+    }
+
+    #eau{
+        margin: 40px;
     }
 }
