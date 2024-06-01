@@ -982,7 +982,7 @@ video{
     }
 }
 
-@media(min-height:945px){
+@media(min-height:880px){
     .pay, .pay:hover{
         width: 365px;
     }
