@@ -438,57 +438,9 @@ hr{
     padding: 20px;
 }
 
-.project_kontejner{
-    display: flex;
-    position: relative;
-    width: 80%;
-    margin: 70px 10%;
-    height: 70vh;
-}
-
-.o_hre{
-    height: 70vh;
-    width: 60%;
-    margin: 0px 2%;
-    border-radius: 15px;
-}
-
-.letak{
-    width: 32%;
-    margin: 0px 2%;
-    height: 70vh;
-}
-
-.letak img{
-    position: relative;
-    height: 70vh;
-    right: 27%;
-    top: 2%;
-}
-
-.o_hre p{
-    margin: 10% 30px;
-}
-
-video{
-    margin: 0px 25% 100px 25%;
-}
-
-#blue{
-    position: relative;
-    left: 12%;
-}
-
 #le{
     position: relative;
     left: 10%;
-}
-
-#luech{
-    position: relative;
-    margin-top: 10%;
-    font-size: 50px;
-    margin-left: 5%;
 }
 
 .kontejner_payment{
@@ -563,14 +515,6 @@ input{
     top: 30%;
 }
 
-#ll{
-    position: relative;
-    font-size: 50px;
-    margin: 20px 10%;
-    top: 35px;
-}
-
-
 #cotn{
     font-size: 20px;
     position: relative;
@@ -580,23 +524,62 @@ input{
     margin: 18px;
 }
 
+/*projects*/
+.kontejner{
+    display: flex;
+    width: 80%;
+    margin:20px 10% 40px 10%;
+    height: 500px;
+}
+
+.podkontejner1{
+    width: 42%;
+    margin: 4%;
+    background-color: #dddddd;
+    border-radius: 10px;
+}
+
+.podkontejner1 p{
+    margin: 30px;
+    word-break: break-word;
+    overflow-wrap: break-word; 
+}
+
+.podkontejner2{
+    width: 42%;
+    margin: 4%;
+}
+
+#nadpis_projects{
+    margin: 40px 0px 20px 10%;
+}
+
+#letacek{
+    width: 100%;
+}
+
+#letacek2{
+    position: relative;
+    width: 65%;
+    left: 110px;
+}
+
+#letacek3{
+    position: relative;
+    width: 60%;
+    left: 100px;
+}
+
+video{
+    position: relative;
+    left: 13%;
+}
 
 /*responsivita*/
 @media(max-width:1135px){
     #liop{
         position: relative;
         left: 10%;
-    }
-}
-
-@media(max-width:1350px){
-    .letak{
-        display: none;
-    }
-
-    .o_hre{
-        width: 98%;
-        margin: 0px 1%;
     }
 }
 
@@ -654,16 +637,6 @@ input{
         position: relative;
         left: 5%;
     }
-
-    .o_hre p{
-        width: 96%;
-        margin: 2%;
-    }
-
-    #ll{
-        position: absolute;
-        font-size: 50px;
-    }
 }
 
 @media(max-width:560px){
@@ -706,7 +679,6 @@ input{
         font-size: 50px;
     }
 
-
     #hr{
         display: block;
     }
@@ -725,9 +697,9 @@ input{
         right: 5%;
     }
 
-    video{
-        margin: 0px;
-        width: 100%;
+    .podkontejner1 p{
+        position: relative;
+        margin-bottom: 90px;
     }
 }
 
@@ -792,13 +764,6 @@ input{
         margin: 20px;
     }
 
-    #ll{
-        position: relative;
-        font-size: 50px;
-        margin: 20px 10%;
-        top: 35px;
-    }
-
     #cotn{
         font-size: 20px;
         position: relative;
@@ -853,10 +818,6 @@ input{
         font-size: 60%;
     }
 
-    video{
-        height: 300px;
-    }
-
     .support{
         position: relative;
         width: 80%;
@@ -888,8 +849,6 @@ input{
         width: 90%;
         margin: 5%;
     }
-
-
 }
 
 @media(max-width:1175px){
@@ -913,11 +872,6 @@ input{
 }
 
 @media(max-width:834px){
-    video{
-        margin: 10% 15% 60px 15%;
-        width: 70%;
-        height: 260px;
-    }
 
     #eau{
         margin:5% 5% 20px 5%;
@@ -985,31 +939,11 @@ input{
     }
 }
 
-@media(max-width:620px){
-    video{
-        position: relative;
-        top: 70px;
-    }
-
-    .o_hre{
-        width: 100%;
-        margin: 0%;
-    }
-}
-
 @media(max-width:660px){
     .ss li a img{
         padding: 5px;
         height: 19px;
         width: 19px;
-    }
-
-    #luech{
-        position: absolute;
-        top: 50px;
-        padding: 10px 10% 5% 10%;
-        right: 10%;
-        margin-top: 10px;
     }
 
     #pd{
@@ -1022,13 +956,6 @@ input{
 
     #wtdap{
         left: 4%;
-    }
-
-    #luech{
-        position: relative;
-        margin-top: 25%;
-        font-size: 50px;
-        margin-left: 5%;
     }
 
     .support2 ul{
@@ -1062,6 +989,23 @@ input{
 
     .kontejner_payment{
         height: 52vh;
+    }
+
+    video{
+        height: 70%;
+        width: 1000px;
+    }
+
+    #letacek{
+        width: 75%;
+    }
+
+    #letacek2{
+        width: 50%;
+    }
+
+    #letacek3{
+        width: 45%;
     }
 
     .cardnumber input, .mail input{
@@ -1200,6 +1144,19 @@ input{
         margin: 5px;
         height: 350px;
     }
+
+    .podkontejner1{
+        background-color: rgb(248, 248, 248);
+    }
+
+    video{
+        position: absolute;
+        top: 20px;
+    }
+
+    #nadpis_projects{
+        margin: 40px 10px;
+    }
 }
 
 @media(max-width:500px){
@@ -1223,5 +1180,96 @@ input{
 
     #eau{
         margin: 40px;
+    }
+}
+
+@media(max-width:1350px){
+    .kontejner{
+        width: 80%;
+        margin:20px 10% 40px 10%;
+        height: 860px;
+        display: block;
+    }
+
+    .podkontejner1{
+        width: 90%;
+        margin: 5%;
+        height: 320px;
+    }
+
+    .podkontejner1 p{
+        position: relative;
+        top: 10%;
+    }
+
+    #letacek{
+        width: 100%;
+        position: relative;
+        left: 250px;
+    }
+    
+    #letacek2{
+        position: relative;
+        width: 65%;
+        left: 330px;
+    }
+    
+    #letacek3{
+        position: relative;
+        width: 60%;
+        left: 320px;
+    }
+}
+
+@media(max-width:720px){
+    .podkontejner1{
+        width: 100%;
+        margin: 0%;
+        left: 0px;
+        height: 560px;
+    }
+
+    .podkontejner1 p{
+        top: 10px;
+        margin: 10px;
+    }
+
+    video{
+        position: relative;
+        width: 100%;
+        right: 30%;
+        height: 200px;
+    }
+}
+
+@media(max-width:970px){
+    .podkontejner2{
+        display: none;
+    }
+
+    video{
+        position: relative;
+        height: 340px;
+        left: 18%;
+    }
+
+    .kontejner{
+        height: 490px;
+    }
+
+    .podkontejner1{
+        height: 400px;
+    }
+}
+
+@media(max-width:565px){
+    .podkontejner1{
+        height: 500px;
+    }
+
+    video{
+        height: 90%;
+        position: relative;
+        left: 0px;
     }
 }
