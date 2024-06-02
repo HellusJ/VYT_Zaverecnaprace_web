@@ -555,7 +555,9 @@ input{
 }
 
 #letacek{
-    width: 100%;
+    position: relative;
+    width: 60%;
+    left: 110px;
 }
 
 #letacek2{
@@ -997,11 +999,11 @@ video{
     }
 
     #letacek{
-        width: 75%;
+        width: 50%;
     }
 
     #letacek2{
-        width: 50%;
+        width: 75%;
     }
 
     #letacek3{
@@ -1203,9 +1205,9 @@ video{
     }
 
     #letacek{
-        width: 100%;
+        width: 60%;
         position: relative;
-        left: 250px;
+        left: 300px;
     }
     
     #letacek2{
